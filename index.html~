@@ -4,6 +4,8 @@ layout: default
 
 <div class="home">
 
+	<p>I’m migrating from blogger.com to <a href="https://github.com/">github</a> and <a href="http://jekyllrb.com">jekyll</a>. If you’re missing something on my old site, it is still available at this url: <a href="http://mikergray.blogger.com">mikergray.blogspot.com</a></p>
+
   <h1>Posts</h1>
 
   <ul class="posts">
