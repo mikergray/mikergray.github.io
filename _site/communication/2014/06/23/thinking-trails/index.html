@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+	<!--<!doctype html>-->
+
+<!--
+	HTML5 Reset: https://github.com/murtaugh/HTML5-Reset
+	Free to use
+-->
+
+<!--[if lt IE 7 ]> <html class="ie ie6 ie-lt10 ie-lt9 ie-lt8 ie-lt7 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 ie-lt10 ie-lt9 ie-lt8 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 ie-lt10 ie-lt9 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 ie-lt10 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!-- the "no-js" class is for Modernizr. --> 
+
+<head>
+
+	<meta charset="utf-8">
+	
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<!-- Important stuff for SEO, don't neglect. (And don't dupicate values across your site!) -->
+	<title>Thinking Trails</title>
+	<meta name="author" content="Mike R. Gray" />
+	<meta name="description" content="" />
+	
+	<!-- Don't forget to set your site up: http://google.com/webmasters -->
+	<meta name="google-site-verification" content="" />
+	
+	<!-- Who owns the content of this site? -->
+	<meta name="Copyright" content="" />
+	
+	<!--  Mobile Viewport
+	http://j.mp/mobileviewport & http://davidbcalhoun.com/2010/viewport-metatag
+	device-width : Occupy full width of the screen in its current orientation
+	initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
+	maximum-scale = 1.0 retains dimensions instead of zooming in if page width < device width (wrong for most sites)
+	-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Use Iconifyer to generate all the favicons and touch icons you need: http://iconifier.net -->
+	<link rel="shortcut icon" href="favicon.ico" />
+	
+	<!-- concatenate and minify for production -->
+	<link rel="stylesheet" href="http://localhost:4000/assets/css/prism.css" />
+	<link rel="stylesheet" href="http://localhost:4000/assets/css/reset.css" />
+	<link rel="stylesheet" href="http://localhost:4000/assets/css/style.css" />
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!--<link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>-->
+	<link href='http://fonts.googleapis.com/css?family=Ledger' rel='stylesheet' type='text/css'>
+	<!-- Lea Verou's Prefix Free, lets you use un-prefixed properties in your CSS files -->
+	<script src="http://localhost:4000/assets/js/libs/prefixfree.min.js"></script>
+	
+	<!-- This is an un-minified, complete version of Modernizr. 
+		 Before you move to production, you should generate a custom build that only has the detects you need. -->
+	<script src="assets/js/libs/modernizr-2.7.1.dev.js"></script>
+	
+	<!-- Application-specific meta tags -->
+	<!-- Windows 8: see http://msdn.microsoft.com/en-us/library/ie/dn255024%28v=vs.85%29.aspx for details -->
+	<meta name="application-name" content="" /> 
+	<meta name="msapplication-TileColor" content="" /> 
+	<meta name="msapplication-TileImage" content="" />
+	<meta name="msapplication-square150x150logo" content="" />
+	<meta name="msapplication-square310x310logo" content="" />
+	<meta name="msapplication-square70x70logo" content="" />
+	<meta name="msapplication-wide310x150logo" content="" />
+	<!-- Twitter: see https://dev.twitter.com/docs/cards/types/summary-card for details -->
+	<meta name="twitter:card" content="">
+	<meta name="twitter:site" content="">
+	<meta name="twitter:title" content="">
+	<meta name="twitter:description" content="">
+	<meta name="twitter:url" content="">
+	<!-- Facebook (and some others) use the Open Graph protocol: see http://ogp.me/ for details -->
+	<meta property="og:title" content="" />
+	<meta property="og:description" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:image" content="" />
+	
+
+</head>
+
+
+    	<body>
+<div class="wrapper">
+	<!--<header class="site-header">
+
+  <div class="wrap">
+
+    <a class="site-title" href="/">Mike R. Gray</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           viewBox="0 0 18 15" enable-background="new 0 0 18 15" xml:space="preserve">
+          <path fill="#505050" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0
+            h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#505050" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484
+            h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#505050" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0
+            c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+      <div class="trigger">
+        
+          <a class="page-link" href="/essays/">Essays</a>
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+-->
+<header class="page-header">
+	<div class="header-decoration"><a></a></div>
+	<div class="header-wrapper">
+	<h1><a href="/">Mike R. Gray</a></h1>
+	
+	<div class="nav-wrapper">
+	<nav>
+	
+		<ul>
+			<!--<li><a href="">Essays</a></li>
+			<li class="seperator">/</li>
+			<li><a href="">Projects</a></li>
+			<li class="seperator">/</li>
+			<li><a href="">Bio</a></li>
+			<li class="seperator">/</li>
+			<li><a href="">Contact</a></li>-->
+			
+			    	
+				<!--<li class="seperator">/</li>-->
+				<li><a class="page-link" href="/essays/">Essays</a></li>   	
+						
+			
+			    			
+			
+			    			
+			
+		</ul>
+	
+	</nav>
+	</div>
+	</div>
+	<div class="header-decoration"><a></a></div>
+</header>
+
+		<div class="page">
+			<div class="post">
+
+  <header class="post-header">
+    <h1>Thinking Trails</h1>
+    <p class="meta">Jun 23, 2014</p>
+  </header>
+
+  <article class="post-content">
+  <p>I've had a terrible time writing articles for this blog. I have a half-dozen abandoned drafts, but not one half-finished essay. Besides my embarrassing introductory post, this is post #1. My first excuse was that my ideas weren't fully formed, and therefore I couldn't argue anything worthwhile. Because my ideas weren't worthwhile or original, there was no reason to write them. Naturally, that means there was no reason to publish anything.</p>
+
+<p>I nearly pulled the blog offline, until I realized that my idea of writing was all wrong. I'm not trying to convince the world of anything. I'm not trying to be original. I'm trying to discover what and how I think, and to share it with you.</p>
+
+<p>If you take a walk through the mud, you will leave footprints while you make your way towards a destination. You probably won't learn much when you get to the destination, but you will learn by looking back at your footprints. You will see the places you tripped, the places you got stuck, and the direction you walked. Then, you can back-track and try it again. Things will be messy, but if you try to keep clean, you will miss out on some fantastic destinations you didn't know existed.</p>
+
+<p>That was my problem. I wanted to produce a clean and paved road, but I didn't know I needed to scout out a trail in the mud first. When things got messy I got discouraged, because I was trying to pave that road without first walking the path. But if I went to all that trouble, why couldn't I just record the path I took, and let others follow the same one? That way, when they walk it, they have the knowledge needed to pave their own road.</p>
+
+<p>I also had the assumption that I needed to know and state the destination before I set out. Of course, by the end of paragraph two I completely disagreed with the opening statement of paragraph one. Stubbornly, I stuck to my original idea and wrote something that looked like a two-headed monster fighting itself.</p>
+
+<p>The way I was writing was unnatural, but I didn't think it was. It's kind of like running without shoes--it's better but to most people it feels weird. I was bound to rules I made up or was taught. I'd always been taught to have a clear idea of where I was going, even to the point of planning every sentence and paragraph. Since I thought this was necessary for good writing, and I couldn't do it, I refused to simply write. I thought the point of writing was always to record a preconceived argument, rather than show how I thought things through. The more closely the writing structure is to the thinking structure, the easier it will be to communicate the idea.</p>
+
+<p>My big hangup about originality doesn't matter either. There is an old hacker maxim that says no problem should have to be solved twice. I followed that rule so well, I refused to write anything similar to something already written. The real meaning of the statement is that if we do discover a solution, we must be sure to share it with others. Writing leaves behind the trail you found, so others can travel it too. No thought path should have to be discovered twice. If anything, you can re-experience for yourself any thought just by reading what you wrote. At least you won't have to make that same discovery twice, even if no one else cares.</p>
+
+<p>In order to reach any level of usefulness to you or your readers, you have to make sure to keep those pesky mud-prints intact. Start where your readers are, and record the bumps. Those following can know exactly how to get there. If you wait until you are back in your bathtub, recalling the exact steps of the journey won't just be difficult, but impossible. The finished writing will likely be irrelevant or even damaging, since you probably forgot something important. Writing by experts who have already 'arrived' isn't inherently bad, but too often their brilliant work is unappreciated. Not because it's worthless, but because no one can understand it. This takes expertise in itself to overcome.</p>
+
+<p>This 'thinking on paper' approach makes the finished writing very easy to understand, because as long as the reader has similar experience, they will be able to follow the <i>train of thought</i>. If the author does eventually make it to their destination, they will have created a priceless map. An author's job isn't to implant thoughts in someones mind, but rather to show them how to get there. There is no need to labor over complex arguments, because they won't convince anyone. Instead, just write down thinking trails and show others how to come to the same conclusion. It's easier on the reader and the author.</p>
+
+  </article>
+
+</div>
+
+		</div>
+		<footer>
+		
+		<center><small>&copy; Copyright Mike R. Gray 2014. All Rights Reserved.</small></center>
+		
+	</footer>
+
+</div>
+    	</body>
+<script src="http://localhost:4000/assets/js/prism.js"></script> 
+</html>
