@@ -46,6 +46,7 @@
 	<link rel="stylesheet" href="{{ site.url }}/assets/css/reset.css" />
 	<link rel="stylesheet" href="{{ site.url }}/assets/css/style.css" />
 	<!--<link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>-->
+	<link href='http://fonts.googleapis.com/css?family=Ledger' rel='stylesheet' type='text/css'>
 	<!-- Lea Verou's Prefix Free, lets you use un-prefixed properties in your CSS files -->
 	<script src="{{ site.url }}/assets/js/libs/prefixfree.min.js"></script>
 	

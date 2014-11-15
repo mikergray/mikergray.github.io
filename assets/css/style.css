@@ -183,6 +183,40 @@ pre {
 	background: url(debut_light_@2X.png)!important;
 }
 
+/* Index Page
+----------------------------------------*/
+
+#index-page {
+
+	padding: 0px;
+   	display: -webkit-flex;
+   	display: flex;
+   	-webkit-flex-flow: row;
+   	flex-flow: row;
+}
+
+#sidebar {
+	max-width: 100%;
+	flex-grow: 1;
+	padding-right: 0.5em;
+	margin-top: 0.75em;
+}
+
+#bio {
+	flex-grow: 2;
+	padding-left: 0.5em;
+}
+
+	#bio li {
+		display: block;
+		float: left;
+		margin-right: 0.5em;	
+	}
+	
+	#bio ul * {
+		text-decoration: none;
+	}
+
 /* Footer
 ----------------------------------------*/
 footer {
@@ -229,10 +263,20 @@ footer {
 		float: left;
 		display: table-cell;
 	}
+	
+	#index-page {
+
+		flex-flow: column;
+	}
+	
+	#bio, sidebar {
+		padding: 0px;	
+	}
+	
 }
 
 @media screen and (min-width: 780px) {
-		
+	
 }
 
 

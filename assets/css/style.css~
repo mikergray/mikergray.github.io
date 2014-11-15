@@ -156,10 +156,7 @@ body {
 
 .page {
 	clear: both;
-	background-color: rgba(255,255,255,0.6);;
-	background: url(../images/profile.png);
-	background-size: 100%;
-	background-position: 25% 25%;	
+	background-color: rgba(255,255,255,0.6);;	
 	padding: 2em;
 	padding-left: 3.2em;
 	padding-right: 3.2em;
@@ -185,6 +182,36 @@ pre {
 	border: 1px solid #e2e2e2;
 	background: url(debut_light_@2X.png)!important;
 }
+
+/* Index Page
+----------------------------------------*/
+
+#index-page {
+
+	padding: 0px;
+   	display: -webkit-flex;
+   	display: flex;
+   	-webkit-flex-flow: row;
+   	flex-flow: row;
+}
+
+#sidebar {
+	max-width: 100%;
+	flex-grow: 1;
+	padding-right: 0.5em;
+	margin-top: 0.75em;
+}
+
+#bio {
+	flex-grow: 2;
+	padding-left: 0.5em;
+}
+
+	#bio li {
+		display: block;
+		float: left;
+		margin-right: 0.5em;	
+	}
 
 /* Footer
 ----------------------------------------*/
@@ -232,10 +259,20 @@ footer {
 		float: left;
 		display: table-cell;
 	}
+	
+	#index-page {
+
+		flex-flow: column;
+	}
+	
+	#bio, sidebar {
+		padding: 0px;	
+	}
+	
 }
 
 @media screen and (min-width: 780px) {
-		
+	
 }
 
 
