@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mike R. Gray</title>
-    <description></description>
-    <link>http://www.mikergray.comhttp://www.mikergray.com/</link>
-    <atom:link href="http://www.mikergray.comhttp://www.mikergray.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 15 Nov 2014 14:02:03 -0600</pubDate>
-    <lastBuildDate>Sat, 15 Nov 2014 14:02:03 -0600</lastBuildDate>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
+    <link>http://www.mikergray.com/</link>
+    <atom:link href="http://www.mikergray.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 15 Nov 2014 14:27:49 -0600</pubDate>
+    <lastBuildDate>Sat, 15 Nov 2014 14:27:49 -0600</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
@@ -30,8 +30,8 @@
 &lt;p&gt;This &#39;thinking on paper&#39; approach makes the finished writing very easy to understand, because as long as the reader has similar experience, they will be able to follow the &lt;i&gt;train of thought&lt;/i&gt;. If the author does eventually make it to their destination, they will have created a priceless map. An author&#39;s job isn&#39;t to implant thoughts in someones mind, but rather to show them how to get there. There is no need to labor over complex arguments, because they won&#39;t convince anyone. Instead, just write down thinking trails and show others how to come to the same conclusion. It&#39;s easier on the reader and the author.&lt;/p&gt;
 </description>
         <pubDate>Mon, 23 Jun 2014 22:53:00 -0500</pubDate>
-        <link>http://www.mikergray.comhttp://www.mikergray.com/communication/2014/06/23/thinking-trails/</link>
-        <guid isPermaLink="true">http://www.mikergray.comhttp://www.mikergray.com/communication/2014/06/23/thinking-trails/</guid>
+        <link>http://www.mikergray.com/communication/2014/06/23/thinking-trails/</link>
+        <guid isPermaLink="true">http://www.mikergray.com/communication/2014/06/23/thinking-trails/</guid>
         
         
         <category>communication</category>

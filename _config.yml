@@ -1,8 +1,8 @@
 # Site settings
 title: Mike R. Gray
 email: your-email@domain.com
-description: ""
-baseurl: "http://www.mikergray.com"
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+baseurl: ""
 url: http://www.mikergray.com
 twitter_username: realmikegray
 github_username:  mikergray
@@ -10,4 +10,4 @@ github_username:  mikergray
 # Build settings
 markdown: kramdown
 permalink: pretty
-#paginate: 3
+paginate: 3
