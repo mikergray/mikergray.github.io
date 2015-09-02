@@ -9,7 +9,7 @@ layout: default
 
 
 <div id="bio">
-<p>Mike first sat at a computer at age 3, and he's still tapping away. While his first passions were design and UX, they gave way to deeper interests in operating systems and computer programming.</p>
+<p>Hi, I'm Mike! When I was a toddler, my parents gave me some educational computer games. Two decades later, tinkering with open source technology is a way of life. I couldn't stop if I wanted to, so I'm working towards a career in system administration. If you can't find me at my computer, I'm probably rocking it out on the piano or drums.</p>
 
 <ul>
 	<li><a href="https://www.linkedin.com/in/mikergray/"><i class="fa fa-linkedin-square"></i>
