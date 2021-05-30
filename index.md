@@ -10,13 +10,13 @@ layout: default
 
 <div id="bio">
 <p>Hey, I’m Mike! I’m a student from the greater Chicago area majoring in marketing analytics and integrated marketing communication. I love applying marketing techniques to help people find community and build relationships!</p>
-
-<h3>6+ years of marketing experience:</h3>
+<br>
+<h3>6+ years of marketing experience:</h3><br>
 <li>🏡 Real Estate</li>
 <li>🏨 Hospitality</li>
 <li>🎤 Entertainment</li>
-
-<h3>My interests:</h3>
+<br>
+<h3>My interests:</h3><br>
 <li>💃 Swing Dancing 🕺</li>
 <li>🎹 Piano</li>
 <li>💻 Coding/Technology/UNIX</li>
