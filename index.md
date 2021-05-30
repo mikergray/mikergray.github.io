@@ -24,7 +24,7 @@ layout: default
 <li>🤹‍♂️ Juggling</li>
 <li>🔊 Live Sound</li>
 <li>🎨 Photoshop</li>
-
+<br>
 <br>
 <ul>
 	<li><a href="https://www.linkedin.com/in/mikergray/"><i class="fa fa-linkedin-square"></i></a></li>
