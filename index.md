@@ -9,7 +9,22 @@ layout: default
 
 
 <div id="bio">
-<p>Hi, I'm Mike! I'm a full-time college student from the greater Chicago area. Previously, I worked in marketing for around five years, including positions in the hospitality and real estate industries. In my free time, I enjoy playing the keyboard, juggling, and <a href="https://celebrateswing.com">swing dancing</a>. I'd love to talk to you, so say hello via the links below:</p>
+<p>Hey, I’m Mike! I’m a student from the greater Chicago area majoring in marketing analytics and integrated marketing communication. I love applying marketing techniques to help people find community and build relationships!</p>
+
+<h3>6+ years of marketing experience:</h3>
+<li>🏡 Real Estate</li>
+<li>🏨 Hospitality</li>
+<li>🎤 Entertainment</li>
+
+<h3>My interests:</h3>
+<li>💃 Swing Dancing 🕺</li>
+<li>🎹 Piano</li>
+<li>💻 Coding/Technology/UNIX</li>
+<li>🖖 Star Trek</li>
+<li>🤹‍♂️ Juggling</li>
+<li>🔊 Live Sound</li>
+<li>🎨 Photoshop</li>
+
 <br>
 <ul>
 	<li><a href="https://www.linkedin.com/in/mikergray/"><i class="fa fa-linkedin-square"></i></a></li>
