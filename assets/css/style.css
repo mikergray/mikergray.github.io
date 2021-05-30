@@ -209,8 +209,11 @@ pre {
 
 	#bio li {
 		display: block;
-		float: left;
 		margin-right: 0.5em;	
+	}
+
+	.socials li {
+		float: left;
 	}
 	
 	#bio ul * {
