@@ -4,7 +4,7 @@ layout: default
 <div id="index-page">
 
 <div id="sidebar">
-<img src="/assets/images/profiledec2020.jpg" width="100%">
+<img src="/assets/images/ProfileAug2021-square.jpg" width="100%">
 </div>
 
 
