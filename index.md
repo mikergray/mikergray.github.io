@@ -9,7 +9,7 @@ layout: default
 
 
 <div id="bio">
-	<p>Hey, I’m Mike! I’m a student from the greater Chicago area majoring in marketing analytics and integrated marketing communication. I love applying marketing techniques to help people find community and build relationships!</p>
+	<p>Hey, I’m Mike! I love creating meaningful experiences for people to enjoy, and my tool of choice is marketing. I currently study Advanced Marketing Analytics and Integrated Marketing Communication at the Illinois State University College of Business.</p>
 	<br>
 	<h3>6+ years of marketing experience:</h3>
 	<ul>
